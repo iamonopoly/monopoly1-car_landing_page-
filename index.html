@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>Car Landing Page</title>
 </head>
 
@@ -16,7 +16,7 @@
             <div class="toggle"></div>
         </header>
 
-        <video src="car.mp4" muted loop autoplay></video>
+        <video src="video/car.mp4" muted loop autoplay></video>
 
         <div class="overlay"></div>
 
@@ -29,13 +29,13 @@
 
         <ul class="social">
             <li>
-                <a href="#"><img src="facebook.png" alt=""></a>
+                <a href="#"><img src="icons/facebook.png" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="twitter.png" alt=""></a>
+                <a href="#"><img src="icons/twitter.png" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="instagram.png" alt=""></a>
+                <a href="#"><img src="icons/instagram.png" alt=""></a>
             </li>
         </ul>
     </section>
@@ -52,7 +52,16 @@
 
 
 
-    <script src="new.js"></script>
+    <script src="js/new.js"></script>
+
+    <!-- <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script> -->
 </body>
 
 </html>
